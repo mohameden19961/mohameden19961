@@ -1,5 +1,6 @@
 <div align="center">
 
+<!-- Typing SVG -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B+I'm+Abdy;Full-Stack+Developer;CS+Student+%40+SUPNUM+Mauritania;Always+learning%2C+always+building." alt="Typing SVG"/>
 
 <br/>
@@ -105,8 +106,8 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 ## 🏆 Distinctions & Competitions
 
-- 🥇 **Médaille d'Or — Nuit de l'Info** · 1ère place au hackathon national.
-- 🥈 **2ème Place — Défi de Programmation** · Compétition algorithmique nationale.
+- 🥇 **Médaille d'Or — Nuit de l'Info** · 1ère place au hackathon national — application complète livrée en moins de 24h en équipe.
+- 🥈 **2ème Place — Défi de Programmation** · Compétition algorithmique nationale — résolution de problèmes sous contrainte de temps.
 
 ---
 
@@ -128,17 +129,23 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 ## ⚡ Recent GitHub Activity
 
+<!--RECENT_ACTIVITY:start-->
+<!--RECENT_ACTIVITY:end-->
+
 ---
 
 ## 🌱 Currently Learning
 
 - **Flutter** for cross-platform mobile development
 - **React + Next.js** for production-grade fullstack apps
-- **TypeScript** for robust apps
+- **TypeScript** for robust, typed JavaScript applications
+- **Algorithms & Operations Research** as part of my CS curriculum
 
 ---
 
 ## 📫 Let's Connect
+
+I'm actively looking for an **internship in web or software development** where I can contribute, learn from experienced engineers, and grow fast.
 
 <p>
   <a href="mailto:24068@supnum.mr">
@@ -147,6 +154,14 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
   &nbsp;
   <a href="https://www.linkedin.com/in/abdy-mohameden-06953a329/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://twitter.com/mohameden19961">
+    <img src="https://img.shields.io/badge/Twitter / X-000000?style=for-the-badge&logo=x&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://www.youtube.com/channel/UCrKUl55qHVIlfB49b2_TPaA">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
   </a>
 </p>
 

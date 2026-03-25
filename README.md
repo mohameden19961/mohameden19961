@@ -80,51 +80,6 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 ---
 
-## 🚀 Projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📥 YouTube Downloader</h3>
-      <p>A clean web interface to download YouTube videos in a few clicks. Built to explore media processing, HTTP handling, and delivering a smooth user experience with minimal dependencies.</p>
-      <p>
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"/>
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-      </p>
-      <a href="https://github.com/mohameden19961/youtube-downloader"><strong>→ View repo</strong></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🔧 ProjetPiS3 — Backend API</h3>
-      <p>A structured REST API powering the core functionalities of a collaborative school project. Focused on clean routing, data validation, and maintainable backend architecture.</p>
-      <p>
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"/>
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-      </p>
-      <a href="https://github.com/mohameden19961/ProjetPiS3-backend"><strong>→ View repo</strong></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🧪 PHP Development</h3>
-      <p>A growing collection of PHP exercises, patterns, and mini-projects. This repo reflects my learning process — from fundamentals to advanced backend patterns — written to be readable and reusable.</p>
-      <p>
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"/>
-      </p>
-      <a href="https://github.com/mohameden19961/PHP-development"><strong>→ View repo</strong></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚙️ Backend-PHP</h3>
-      <p>Practical backend solutions built with PHP and MySQL — covering authentication, CRUD operations, and API design. A reference for backend patterns I use and refine over time.</p>
-      <p>
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"/>
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-      </p>
-      <a href="https://github.com/mohameden19961/Backend-PHP"><strong>→ View repo</strong></a>
-    </td>
-  </tr>
-</table>
-
----
 
 ## 📊 GitHub Stats
 

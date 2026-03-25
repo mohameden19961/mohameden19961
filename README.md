@@ -102,12 +102,6 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
   <img src="https://img.shields.io/badge/PrestaShop-DF0067?style=for-the-badge&logo=prestashop&logoColor=white"/>
 </p>
 
----
-
-## 🏆 Distinctions & Competitions
-
-- 🥇 **Médaille d'Or — Nuit de l'Info** · 1ère place au hackathon national — application complète livrée en moins de 24h en équipe.
-- 🥈 **2ème Place — Défi de Programmation** · Compétition algorithmique nationale — résolution de problèmes sous contrainte de temps.
 
 ---
 

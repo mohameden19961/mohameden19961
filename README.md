@@ -25,6 +25,7 @@
 
 ---
 
+
 ## 👨‍💻 About Me
 
 I'm a Computer Science student at **SUPNUM Mauritania**, building toward my first professional role as a backend or fullstack developer. I've gone from writing my first PHP script to shipping REST APIs, mobile apps with Flutter, and full web projects with React and Laravel — and I'm not slowing down.

@@ -102,6 +102,12 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
   <img src="https://img.shields.io/badge/PrestaShop-DF0067?style=for-the-badge&logo=prestashop&logoColor=white"/>
 </p>
 
+---
+
+## 🏆 Distinctions & Competitions
+
+- 🥇 **Médaille d'Or — Nuit de l'Info** · 1ère place au hackathon national — application complète livrée en moins de 24h en équipe.
+- 🥈 **2ème Place — Défi de Programmation** · Compétition algorithmique nationale — résolution de problèmes sous contrainte de temps.
 
 ---
 
@@ -118,6 +124,13 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohameden19961&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="60%"/>
 
 </div>
+
+---
+
+## ⚡ Recent GitHub Activity
+
+<!--RECENT_ACTIVITY:start-->
+<!--RECENT_ACTIVITY:end-->
 
 ---
 

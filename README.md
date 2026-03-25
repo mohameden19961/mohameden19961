@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Typing SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B+I'm+Mohameden;Frontend+%26+Backend+Developer;CS+Student+%40+SUPNUM+Mauritania;Always+learning%2C+always+building." alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B+I'm+Abdy;Full-Stack+Developer;CS+Student+%40+SUPNUM+Mauritania;Always+learning%2C+always+building." alt="Typing SVG"/>
 
 <br/>
 
@@ -15,7 +15,7 @@
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/abdy-mohameden-06953a329/">
-    <img src="https://img.shields.io/badge/LinkedIn-mohameden19961-0077B5?style=flat-square&logo=linkedin&logoColor=white"/>
+    <img src="https://img.shields.io/badge/LinkedIn-abdy--mohameden-0077B5?style=flat-square&logo=linkedin&logoColor=white"/>
   </a>
   &nbsp;
   <img src="https://komarev.com/ghpvc/?username=mohameden19961&style=flat-square&color=6E40C9&label=profile+views"/>
@@ -25,10 +25,9 @@
 
 ---
 
-
 ## 👨‍💻 About Me
 
-I'm a Computer Science student at **SUPNUM Mauritania**, building toward my first professional role as a backend or fullstack developer. I've gone from writing my first PHP script to shipping REST APIs, mobile apps with Flutter, and full web projects with React and Laravel — and I'm not slowing down.
+I'm a Computer Science student at **SUPNUM Mauritania** (L2 – Web & Multimedia Development), actively looking for my first internship as a web or fullstack developer. I've gone from writing my first PHP script to shipping REST APIs, full-stack web apps with React and Next.js, and real-time detection systems — and I'm not slowing down.
 
 My approach to code is simple: **write it clean, make it work, make it last.** I'm driven by curiosity and the conviction that every project, even a small one, is an opportunity to do something well.
 
@@ -41,9 +40,10 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 #### Languages
 <p>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
   <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
@@ -51,20 +51,19 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 #### Frameworks & Libraries
 <p>
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white"/>
 </p>
 
 #### Databases & Cloud
 <p>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 </p>
@@ -72,15 +71,20 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 #### Tools & Platforms
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-  <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white"/>
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
   <img src="https://img.shields.io/badge/PrestaShop-DF0067?style=for-the-badge&logo=prestashop&logoColor=white"/>
 </p>
 
 ---
 
+## 🏆 Distinctions & Competitions
+
+- 🥇 **Médaille d'Or — Nuit de l'Info** · 1ère place au hackathon national — application complète livrée en moins de 24h en équipe.
+- 🥈 **2ème Place — Défi de Programmation** · Compétition algorithmique nationale — résolution de problèmes sous contrainte de temps.
+
+---
 
 ## 📊 GitHub Stats
 
@@ -100,16 +104,16 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 ## 🌱 Currently Learning
 
-- Advanced **Laravel** architecture (service layers, repositories, queues)
+- **Flutter** for cross-platform mobile development
 - **React + Next.js** for production-grade fullstack apps
-- **Docker** for containerized development environments
+- **TypeScript** for robust, typed JavaScript applications
 - **Algorithms & Operations Research** as part of my CS curriculum
 
 ---
 
 ## 📫 Let's Connect
 
-I'm actively looking for an **internship or junior developer position** where I can contribute, learn from experienced engineers, and grow fast.
+I'm actively looking for an **internship in web or software development** where I can contribute, learn from experienced engineers, and grow fast.
 
 <p>
   <a href="mailto:24068@supnum.mr">

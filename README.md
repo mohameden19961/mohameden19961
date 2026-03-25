@@ -115,7 +115,7 @@ I'm actively looking for an **internship or junior developer position** where I 
     <img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="https://linkedin.com/in/mohameden19961">
+  <a href="https://www.linkedin.com/in/abdy-mohameden-06953a329/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   &nbsp;
@@ -123,7 +123,7 @@ I'm actively looking for an **internship or junior developer position** where I 
     <img src="https://img.shields.io/badge/Twitter / X-000000?style=for-the-badge&logo=x&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="https://youtube.com/@mohameden19961">
+  <a href="https://www.youtube.com/channel/UCrKUl55qHVIlfB49b2_TPaA">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
   </a>
 </p>

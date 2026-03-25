@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/GitHub-mohameden19961-181717?style=flat-square&logo=github&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="https://linkedin.com/in/mohameden19961">
+  <a href="https://www.linkedin.com/in/abdy-mohameden-06953a329/">
     <img src="https://img.shields.io/badge/LinkedIn-mohameden19961-0077B5?style=flat-square&logo=linkedin&logoColor=white"/>
   </a>
   &nbsp;

@@ -81,8 +81,8 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 ## 🏆 Distinctions & Competitions
 
-- 🥇 **Médaille d'Or — Nuit de l'Info** · 1ère place au hackathon national — application complète livrée en moins de 24h en équipe.
-- 🥈 **2ème Place — Défi de Programmation** · Compétition algorithmique nationale — résolution de problèmes sous contrainte de temps.
+- 🥇 **Médaille d'Or — Nuit de l'Info** · 1ère place au nuit d'info — application complète livrée en moins de 24h en équipe.
+- 🥈 **2ème Place — Défi de Programmation** · Compétition  du nuit d'info— résolution de problèmes sous contrainte de temps.
 
 ---
 

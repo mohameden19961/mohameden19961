@@ -1,6 +1,5 @@
 <div align="center">
 
-<!-- Typing SVG -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B+I'm+Abdy;Full-Stack+Developer;CS+Student+%40+SUPNUM+Mauritania;Always+learning%2C+always+building." alt="Typing SVG"/>
 
 <br/>
@@ -102,12 +101,6 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
   <img src="https://img.shields.io/badge/PrestaShop-DF0067?style=for-the-badge&logo=prestashop&logoColor=white"/>
 </p>
 
----
-
-## 🏆 Distinctions & Competitions
-
-- 🥇 **Médaille d'Or — Nuit de l'Info** · 1ère place au hackathon national — application complète livrée en moins de 24h en équipe.
-- 🥈 **2ème Place — Défi de Programmation** · Compétition algorithmique nationale — résolution de problèmes sous contrainte de temps.
 
 ---
 
@@ -128,9 +121,6 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 ---
 
 ## ⚡ Recent GitHub Activity
-
-<!--RECENT_ACTIVITY:start-->
-<!--RECENT_ACTIVITY:end-->
 
 ---
 

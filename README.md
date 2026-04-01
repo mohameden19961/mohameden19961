@@ -110,9 +110,9 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=mohameden19961&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165" alt="GitHub Stats"/>
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=mohameden19961&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165"/>
 &nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohameden19961&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages"/>
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=mohameden19961&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
 
 <br/>
 

@@ -140,3 +140,26 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/mohameden19961/mohameden19961/output/github-contribution-grid-snake.svg"/>
+
+---
+
+## 📅 Calendrier 3D
+
+<div align="center">
+<a href="https://skyline.github.com/mohameden19961/2024">
+<img src="https://github-readme-stats.vercel.app/api?username=mohameden19961&show_icons=true&theme=tokyonight&hide_border=true" />
+</a>
+</div>
+
+---
+
+## 🌐 Langues parlées
+
+<div align="center">
+
+![Arabic](https://img.shields.io/badge/Arabic-Native-green?style=for-the-badge&logo=googletranslate&logoColor=white)
+![French](https://img.shields.io/badge/French-Fluent-blue?style=for-the-badge&logo=googletranslate&logoColor=white)
+![English](https://img.shields.io/badge/English-Intermediate-orange?style=for-the-badge&logo=googletranslate&logoColor=white)
+
+</div>
+

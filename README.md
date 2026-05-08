@@ -147,7 +147,7 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 <div align="center">
 <a href="https://skyline.github.com/mohameden19961/2024">
-<img src="https://github-readme-stats.vercel.app/api?username=mohameden19961&show_icons=true&theme=tokyonight&hide_border=true" />
+<img src="https://skyline.github.com/mohameden19961/2025/poster.png" />
 </a>
 </div>
 

@@ -199,3 +199,20 @@ I'm actively looking for an **internship in web or software development** where 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
 </div>
 
+
+---
+
+## 👁️ Visiteurs
+
+<div align="center">
+<img src="https://visitor-badge.laobi.icu/badge?page_id=mohameden19961.mohameden19961"/>
+</div>
+
+---
+
+## 🎯 WakaTime Stats
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=mohameden19961&theme=tokyonight&hide_border=true"/>
+</div>
+

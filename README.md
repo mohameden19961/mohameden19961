@@ -182,3 +182,20 @@ I'm actively looking for an **internship in web or software development** where 
 <div align="center">
   <i>"First, solve the problem. Then, write the code." — John Johnson</i>
 </div>
+
+---
+
+## 🌊 Activity Graph
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mohameden19961&theme=tokyo-night&hide_border=true"/>
+</div>
+
+---
+
+## 💬 Quote du jour
+
+<div align="center">
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
+</div>
+

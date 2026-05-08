@@ -25,6 +25,8 @@
 
 ---
 
+![Coding Banner](image.jpeg)
+
 ## 👨‍💻 About Me
 
 I'm a Computer Science student at **SUPNUM Mauritania** (L2 – Web & Multimedia Development), actively looking for my first internship as a web or fullstack developer. I've gone from writing my first PHP script to shipping REST APIs, full-stack web apps with React and Next.js, and real-time detection systems — and I'm not slowing down.

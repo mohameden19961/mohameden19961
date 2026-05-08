@@ -29,7 +29,7 @@
 
 ## 👨‍💻 About Me
 
-I'm a Computer Science student at **SUPNUM Mauritania** (Web Web L2 – Web & Multimedia Development Multimedia Development Multimedia Development), actively looking for my first internship as a web or fullstack developer. I've gone from writing my first PHP script to shipping REST APIs, full-stack web apps with React and Next.js, and real-time detection systems — and I'm not slowing down.
+I'm a Computer Science student at **SUPNUM Mauritania** (Web & Multimedia Development), actively looking for my first internship as a web or fullstack developer. I've gone from writing my first PHP script to shipping REST APIs, full-stack web apps with React and Next.js, and real-time detection systems — and I'm not slowing down.
 
 My approach to code is simple: **write it clean, make it work, make it last.** I'm driven by curiosity and the conviction that every project, even a small one, is an opportunity to do something well.
 

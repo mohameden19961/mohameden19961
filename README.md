@@ -146,7 +146,7 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 <div align="center">
 
 ![Arabic](https://img.shields.io/badge/Arabic-Native-green?style=for-the-badge&logo=googletranslate&logoColor=white)
-![French](https://img.shields.io/badge/French-Fluent-blue?style=for-the-badge&logo=googletranslate&logoColor=white)
+![French](https://img.shields.io/badge/French-Intermediate-blue?style=for-the-badge&logo=googletranslate&logoColor=white)
 ![English](https://img.shields.io/badge/English-Intermediate-orange?style=for-the-badge&logo=googletranslate&logoColor=white)
 
 </div>

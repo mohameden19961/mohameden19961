@@ -124,6 +124,21 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 ---
 
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=mohameden19961&theme=tokyonight&no-frame=true&row=1&column=7"/>
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/mohameden19961/mohameden19961/output/github-contribution-grid-snake-dark.svg"/>
+</div>
+
 ## ⚡ Recent GitHub Activity
 
 <!--RECENT_ACTIVITY:start-->

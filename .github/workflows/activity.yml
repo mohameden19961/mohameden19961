@@ -16,3 +16,4 @@ jobs:
         with:
           COMMIT_MSG: "Update README with recent activity"
           MAX_LINES: 5
+          README_FILE: README.md

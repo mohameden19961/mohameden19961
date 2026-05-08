@@ -143,7 +143,7 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 ## 🌐 Langues parlées
 
-<div align="left">
+<div align="center">
 
 ![Arabic](https://img.shields.io/badge/Arabic-Native-green?style=for-the-badge&logo=googletranslate&logoColor=white)
 ![French](https://img.shields.io/badge/French-Intermediate-blue?style=for-the-badge&logo=googletranslate&logoColor=white)
@@ -156,7 +156,7 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 ## 🌊 Activity Graph
 
-<div align="left">
+<div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=mohameden19961&theme=tokyo-night&hide_border=true"/>
 </div>
 
@@ -164,6 +164,6 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 ## 💬 Quote du jour
 
-<div align="left">
+<div align="center">
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
 </div>

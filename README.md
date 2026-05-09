@@ -18,6 +18,8 @@
     <img src="https://img.shields.io/badge/LinkedIn-abdy--mohameden-0077B5?style=flat-square&logo=linkedin&logoColor=white"/>
   </a>
   &nbsp;
+  <img src="https://img.shields.io/github/stars/mohameden19961?style=flat-square&color=yellow&label=total%20stars"/>
+  &nbsp;
   <img src="https://komarev.com/ghpvc/?username=mohameden19961&style=flat-square&color=6E40C9&label=profile+views"/>
 </p>
 

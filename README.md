@@ -154,8 +154,6 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 </div>
 
----
-[![Stats de Abdy](https://github-readme-stats.vercel.app/api?username=mohameden19961&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
 

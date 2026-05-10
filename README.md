@@ -119,8 +119,7 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=mohameden19961&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165"/>
 &nbsp;
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=mohameden19961&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
-
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=mohameden19961&layout=compact&theme=tokyonight&hide_border=true&hide=jupyter%20notebook&langs_count=8&exclude_repo=" height="165"/>
 <br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohameden19961&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="60%"/>

@@ -20,7 +20,7 @@
   &nbsp;
   <img src="https://img.shields.io/github/stars/mohameden19961?style=flat-square&color=yellow&label=total%20stars"/>
   &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=mohameden19961&style=flat-square&color=6E40C9&label=profile+views"/>}
+  <img src="https://komarev.com/ghpvc/?username=mohameden19961&style=flat-square&color=6E40C9&label=profile+views"/>
   
 
 </div>

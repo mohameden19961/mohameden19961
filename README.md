@@ -17,6 +17,11 @@
   <a href="https://www.linkedin.com/in/abdy-mohameden-06953a329/">
     <img src="https://img.shields.io/badge/LinkedIn-abdy--mohameden-0077B5?style=flat-square&logo=linkedin&logoColor=white"/>
   </a>
+  &nbsp;
+  <a href="https://user-badge.committers.top/mauritania_public/mohameden19961">
+    <img src="https://user-badge.committers.top/mauritania_public/mohameden19961.svg" alt="Top Committer in Mauritania"/>
+  </a>
+</p>
   
   
   

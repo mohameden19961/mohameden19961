@@ -124,12 +124,7 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 </div>
 
----
-## 📈 Metrics
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/mohameden19961/mohameden19961/main/github-metrics.svg"/>
-</div>
 ---
 ## 🏆 GitHub Trophies
 

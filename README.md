@@ -18,11 +18,10 @@
     <img src="https://img.shields.io/badge/LinkedIn-abdy--mohameden-0077B5?style=flat-square&logo=linkedin&logoColor=white"/>
   </a>
   &nbsp;
-  [![committers.top badge](https://user-badge.committers.top/mauritania_public/mohameden19961.svg)](https://user-badge.committers.top/mauritania_public/mohameden19961)
+  <a href="https://user-badge.committers.top/mauritania_public/mohameden19961">
+    <img src="https://user-badge.committers.top/mauritania_public/mohameden19961.svg" alt="Top Committer in Mauritania"/>
+  </a>
 </p>
-  
-  
-  
 
 </div>
 
@@ -112,8 +111,6 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 ---
 
-
-
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -128,7 +125,6 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 </div>
 
 ---
-
 
 ## 🏆 GitHub Trophies
 
@@ -156,7 +152,6 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 </div>
 
-
 ---
 
 ## 🌊 Activity Graph
@@ -172,5 +167,3 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 <div align="center">
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
 </div>
-
-

@@ -18,9 +18,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-abdy--mohameden-0077B5?style=flat-square&logo=linkedin&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="https://user-badge.committers.top/mauritania_public/mohameden19961">
-    <img src="https://user-badge.committers.top/mauritania_public/mohameden19961.svg" alt="Top Committer in Mauritania"/>
-  </a>
+  [![committers.top badge](https://user-badge.committers.top/mauritania_public/mohameden19961.svg)](https://user-badge.committers.top/mauritania_public/mohameden19961)
 </p>
   
   
@@ -125,7 +123,7 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=mohameden19961&layout=compact&theme=tokyonight&hide_border=true&hide=jupyter%20notebook&langs_count=8&exclude_repo=" height="165"/>
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mohameden19961&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="60%"/>
+<img src="https://streak-stats.demolab.com/?user=mohameden19961&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="60%"/>
 
 </div>
 

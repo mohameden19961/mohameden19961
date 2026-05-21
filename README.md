@@ -19,7 +19,7 @@
   </a>
   &nbsp;
   <a href="https://user-badge.committers.top/mauritania_public/mohameden19961">
-    <img src="https://user-badge.committers.top/mauritania_public/mohameden19961.svg" alt="Top Committer in Mauritania"/>
+    <img src="https://user-badge.committers.top/mauritania_public/mohameden19961.svg?v=2" alt="Top Committer in Mauritania"/>
   </a>
 </p>
 

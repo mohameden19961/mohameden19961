@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
+      <stop offset="100%" style="stop-color:#1a0a2e"/>
+    </linearGradient>
+    <linearGradient id="python" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3776AB"/>
+      <stop offset="100%" style="stop-color:#5ba3e6"/>
+    </linearGradient>
+    <linearGradient id="js" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F7DF1E"/>
+      <stop offset="100%" style="stop-color:#f5e56b"/>
+    </linearGradient>
+    <linearGradient id="ts" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3178C6"/>
+      <stop offset="100%" style="stop-color:#6b9fd6"/>
+    </linearGradient>
+    <linearGradient id="java" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ED8B00"/>
+      <stop offset="100%" style="stop-color:#f5a623"/>
+    </linearGradient>
+    <linearGradient id="react" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#61DAFB"/>
+      <stop offset="100%" style="stop-color:#9be5ff"/>
+    </linearGradient>
+    <linearGradient id="flutter" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#02569B"/>
+      <stop offset="100%" style="stop-color:#1389d6"/>
+    </linearGradient>
+    <linearGradient id="docker" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2496ED"/>
+      <stop offset="100%" style="stop-color:#5bb5f5"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#6E40C9" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="560" fill="url(#bg)" rx="20"/>
+
+  <text x="30" y="45" font-family="monospace" font-size="22" fill="#e2e8f0" font-weight="bold">⚡ Tech Proficiency</text>
+  <line x1="30" y1="55" x2="250" y2="55" stroke="#6E40C9" stroke-width="2" opacity="0.5"/>
+
+  <!-- Python -->
+  <text x="30" y="95" font-family="monospace" font-size="13" fill="#94a3b8">Python</text>
+  <text x="700" y="95" font-family="monospace" font-size="13" fill="#6E40C9">90%</text>
+  <rect x="30" y="105" width="700" height="8" rx="4" fill="#1e1b4b"/>
+  <rect x="30" y="105" width="630" height="8" rx="4" fill="url(#python)">
+    <animate attributeName="width" from="0" to="630" dur="2s" fill="freeze"/>
+  </rect>
+
+  <!-- JavaScript -->
+  <text x="30" y="135" font-family="monospace" font-size="13" fill="#94a3b8">JavaScript</text>
+  <text x="700" y="135" font-family="monospace" font-size="13" fill="#6E40C9">85%</text>
+  <rect x="30" y="145" width="700" height="8" rx="4" fill="#1e1b4b"/>
+  <rect x="30" y="145" width="595" height="8" rx="4" fill="url(#js)">
+    <animate attributeName="width" from="0" to="595" dur="2s" begin="0.2s" fill="freeze"/>
+  </rect>
+
+  <!-- TypeScript -->
+  <text x="30" y="175" font-family="monospace" font-size="13" fill="#94a3b8">TypeScript</text>
+  <text x="700" y="175" font-family="monospace" font-size="13" fill="#6E40C9">80%</text>
+  <rect x="30" y="185" width="700" height="8" rx="4" fill="#1e1b4b"/>
+  <rect x="30" y="185" width="560" height="8" rx="4" fill="url(#ts)">
+    <animate attributeName="width" from="0" to="560" dur="2s" begin="0.4s" fill="freeze"/>
+  </rect>
+
+  <!-- Java -->
+  <text x="30" y="215" font-family="monospace" font-size="13" fill="#94a3b8">Java / Spring Boot</text>
+  <text x="700" y="215" font-family="monospace" font-size="13" fill="#6E40C9">75%</text>
+  <rect x="30" y="225" width="700" height="8" rx="4" fill="#1e1b4b"/>
+  <rect x="30" y="225" width="525" height="8" rx="4" fill="url(#java)">
+    <animate attributeName="width" from="0" to="525" dur="2s" begin="0.6s" fill="freeze"/>
+  </rect>
+
+  <!-- React -->
+  <text x="30" y="255" font-family="monospace" font-size="13" fill="#94a3b8">React / Next.js</text>
+  <text x="700" y="255" font-family="monospace" font-size="13" fill="#6E40C9">80%</text>
+  <rect x="30" y="265" width="700" height="8" rx="4" fill="#1e1b4b"/>
+  <rect x="30" y="265" width="560" height="8" rx="4" fill="url(#react)">
+    <animate attributeName="width" from="0" to="560" dur="2s" begin="0.8s" fill="freeze"/>
+  </rect>
+
+  <!-- Flutter / Dart -->
+  <text x="30" y="295" font-family="monospace" font-size="13" fill="#94a3b8">Flutter / Dart</text>
+  <text x="700" y="295" font-family="monospace" font-size="13" fill="#6E40C9">65%</text>
+  <rect x="30" y="305" width="700" height="8" rx="4" fill="#1e1b4b"/>
+  <rect x="30" y="305" width="455" height="8" rx="4" fill="url(#flutter)">
+    <animate attributeName="width" from="0" to="455" dur="2s" begin="1s" fill="freeze"/>
+  </rect>
+
+  <!-- PHP -->
+  <text x="30" y="335" font-family="monospace" font-size="13" fill="#94a3b8">PHP / Laravel</text>
+  <text x="700" y="335" font-family="monospace" font-size="13" fill="#6E40C9">70%</text>
+  <rect x="30" y="345" width="700" height="8" rx="4" fill="#1e1b4b"/>
+  <rect x="30" y="345" width="490" height="8" rx="4" fill="url(#java)">
+    <animate attributeName="width" from="0" to="490" dur="2s" begin="1.2s" fill="freeze"/>
+  </rect>
+
+  <!-- Docker -->
+  <text x="30" y="375" font-family="monospace" font-size="13" fill="#94a3b8">Docker / DevOps</text>
+  <text x="700" y="375" font-family="monospace" font-size="13" fill="#6E40C9">60%</text>
+  <rect x="30" y="385" width="700" height="8" rx="4" fill="#1e1b4b"/>
+  <rect x="30" y="385" width="420" height="8" rx="4" fill="url(#docker)">
+    <animate attributeName="width" from="0" to="420" dur="2s" begin="1.4s" fill="freeze"/>
+  </rect>
+
+  <!-- Database -->
+  <text x="30" y="415" font-family="monospace" font-size="13" fill="#94a3b8">SQL / Databases</text>
+  <text x="700" y="415" font-family="monospace" font-size="13" fill="#6E40C9">75%</text>
+  <rect x="30" y="425" width="700" height="8" rx="4" fill="#1e1b4b"/>
+  <rect x="30" y="425" width="525" height="8" rx="4" fill="url(#ts)">
+    <animate attributeName="width" from="0" to="525" dur="2s" begin="1.6s" fill="freeze"/>
+  </rect>
+
+  <!-- Git -->
+  <text x="30" y="455" font-family="monospace" font-size="13" fill="#94a3b8">Git / GitHub</text>
+  <text x="700" y="455" font-family="monospace" font-size="13" fill="#6E40C9">95%</text>
+  <rect x="30" y="465" width="700" height="8" rx="4" fill="#1e1b4b"/>
+  <rect x="30" y="465" width="665" height="8" rx="4" fill="url(#python)">
+    <animate attributeName="width" from="0" to="665" dur="2s" begin="1.8s" fill="freeze"/>
+  </rect>
+
+  <!-- Glowing dot animation on each bar end -->
+  <circle cx="660" cy="109" r="4" fill="#5ba3e6">
+    <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="625" cy="149" r="4" fill="#f5e56b">
+    <animate attributeName="opacity" values="0;1;0" dur="1.5s" begin="0.15s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="590" cy="189" r="4" fill="#6b9fd6">
+    <animate attributeName="opacity" values="0;1;0" dur="1.5s" begin="0.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="555" cy="229" r="4" fill="#f5a623">
+    <animate attributeName="opacity" values="0;1;0" dur="1.5s" begin="0.45s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="590" cy="269" r="4" fill="#9be5ff">
+    <animate attributeName="opacity" values="0;1;0" dur="1.5s" begin="0.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="485" cy="309" r="4" fill="#1389d6">
+    <animate attributeName="opacity" values="0;1;0" dur="1.5s" begin="0.75s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="520" cy="349" r="4" fill="#f5a623">
+    <animate attributeName="opacity" values="0;1;0" dur="1.5s" begin="0.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="389" r="4" fill="#5bb5f5">
+    <animate attributeName="opacity" values="0;1;0" dur="1.5s" begin="1.05s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="555" cy="429" r="4" fill="#6b9fd6">
+    <animate attributeName="opacity" values="0;1;0" dur="1.5s" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="695" cy="469" r="4" fill="#5ba3e6">
+    <animate attributeName="opacity" values="0;1;0" dur="1.5s" begin="1.35s" repeatCount="indefinite"/>
+  </circle>
+</svg>

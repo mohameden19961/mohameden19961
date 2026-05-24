@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
+      <stop offset="100%" style="stop-color:#1a0a2e"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6E40C9"/>
+      <stop offset="50%" style="stop-color:#a855f7"/>
+      <stop offset="100%" style="stop-color:#6E40C9"/>
+      <animate attributeName="y2" values="0;440" dur="3s" fill="freeze"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#6E40C9" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="480" fill="url(#bg)" rx="20"/>
+
+  <text x="30" y="45" font-family="monospace" font-size="22" fill="#e2e8f0" font-weight="bold">📅 Coding Journey Timeline</text>
+  <line x1="30" y1="55" x2="280" y2="55" stroke="#6E40C9" stroke-width="2" opacity="0.5"/>
+
+  <!-- Vertical timeline line -->
+  <line x1="120" y1="70" x2="120" y2="450" stroke="url(#line)" stroke-width="3" opacity="0.6">
+    <animate attributeName="y2" from="70" to="450" dur="3s" fill="freeze"/>
+  </line>
+
+  <!-- Event 1 -->
+  <circle cx="120" cy="95" r="8" fill="#6E40C9" filter="url(#shadow)">
+    <animate attributeName="r" values="8;12;8" dur="2s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="145" y="100" font-family="monospace" font-size="13" fill="#e2e8f0" font-weight="bold">First PHP Script</text>
+  <text x="145" y="118" font-family="monospace" font-size="11" fill="#94a3b8">Started web development journey</text>
+
+  <!-- Event 2 -->
+  <circle cx="120" cy="165" r="8" fill="#a855f7" filter="url(#shadow)">
+    <animate attributeName="r" values="8;12;8" dur="2s" begin="1.3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="145" y="170" font-family="monospace" font-size="13" fill="#e2e8f0" font-weight="bold">SUPNUM Mauritania</text>
+  <text x="145" y="188" font-family="monospace" font-size="11" fill="#94a3b8">CS student - Web &amp; Multimedia Development</text>
+
+  <!-- Event 3 -->
+  <circle cx="120" cy="235" r="8" fill="#22d3ee" filter="url(#shadow)">
+    <animate attributeName="r" values="8;12;8" dur="2s" begin="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="145" y="240" font-family="monospace" font-size="13" fill="#e2e8f0" font-weight="bold">First REST APIs</text>
+  <text x="145" y="258" font-family="monospace" font-size="11" fill="#94a3b8">Node.js, Spring Boot, Laravel — full-stack shift</text>
+
+  <!-- Event 4 -->
+  <circle cx="120" cy="305" r="8" fill="#6E40C9" filter="url(#shadow)">
+    <animate attributeName="r" values="8;12;8" dur="2s" begin="1.9s" repeatCount="indefinite"/>
+  </circle>
+  <text x="145" y="310" font-family="monospace" font-size="13" fill="#e2e8f0" font-weight="bold">React &amp; Next.js Apps</text>
+  <text x="145" y="328" font-family="monospace" font-size="11" fill="#94a3b8">Modern frontend with TypeScript + Tailwind</text>
+
+  <!-- Event 5 -->
+  <circle cx="120" cy="375" r="8" fill="#a855f7" filter="url(#shadow)">
+    <animate attributeName="r" values="8;12;8" dur="2s" begin="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="145" y="380" font-family="monospace" font-size="13" fill="#e2e8f0" font-weight="bold">CodeGuard Mega Project</text>
+  <text x="145" y="398" font-family="monospace" font-size="11" fill="#94a3b8">1,500 commits — Python analyzer — 12 PRs — v0.2.0</text>
+
+  <!-- Event 6 -->
+  <circle cx="120" cy="435" r="8" fill="#22d3ee" filter="url(#shadow)">
+    <animate attributeName="r" values="8;12;8" dur="2s" begin="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="145" y="440" font-family="monospace" font-size="13" fill="#e2e8f0" font-weight="bold">1,802+ Contributions</text>
+  <text x="145" y="458" font-family="monospace" font-size="11" fill="#94a3b8">66 repos — Open for internship opportunities</text>
+</svg>

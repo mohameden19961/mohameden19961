@@ -154,13 +154,7 @@ My approach to code is simple: **write it clean, make it work, make it last.** I
 
 ---
 
-## 🌊 Activity Graph
 
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mohameden19961&theme=tokyo-night&hide_border=true"/>
-</div>
-
----
 
 ## 💬 Quote du jour
 

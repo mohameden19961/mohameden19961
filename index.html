@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>الهدف — Fullstack TypeScript بحلول مارس</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#ffffff;
+    --ink:#14171f;
+    --muted:#6b7280;
+    --line:#e7e9ee;
+    --accent:#3178c6;   /* TypeScript blue */
+    --accent-ink:#1d4d80;
+    --ember:#e78a1f;    /* daily-effort amber */
+    --ember-soft:#fdf1e2;
+    --accent-soft:#eaf2fb;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Tajawal', 'Tahoma', sans-serif;
+    line-height:1.75;
+    min-height:100vh;
+  }
+  .mono{
+    font-family:'JetBrains Mono', monospace;
+    direction:ltr;
+    unicode-bidi:isolate;
+  }
+  .wrap{
+    max-width:720px;
+    margin:0 auto;
+    padding:56px 24px 80px;
+  }
+
+  /* ---------- HERO ---------- */
+  .hero{
+    padding-bottom:36px;
+    border-bottom:1px solid var(--line);
+  }
+  .hero .kicker{
+    color:var(--muted);
+    font-size:15px;
+    margin:0 0 10px;
+  }
+  .hero .kicker .mono{ color:var(--accent-ink); font-weight:600; }
+  h1{
+    font-size:clamp(30px, 5vw, 44px);
+    line-height:1.25;
+    font-weight:900;
+    margin:0 0 14px;
+  }
+  h1 .stack-word{ color:var(--accent); }
+  .hero p.sub{
+    color:var(--muted);
+    font-size:17px;
+    max-width:56ch;
+    margin:0;
+  }
+  .stack-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-top:22px;
+  }
+  .stack-chip{
+    font-family:'JetBrains Mono', monospace;
+    direction:ltr;
+    font-size:13px;
+    padding:5px 12px;
+    border:1px solid var(--line);
+    border-radius:100px;
+    color:var(--ink);
+  }
+
+  /* ---------- COUNTDOWN ---------- */
+  section{
+    padding:36px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .section-title{
+    font-size:14px;
+    color:var(--muted);
+    margin:0 0 18px;
+    font-weight:500;
+  }
+  .count-grid{
+    display:flex;
+    gap:32px;
+    flex-wrap:wrap;
+  }
+  .count-item .num{
+    font-family:'JetBrains Mono', monospace;
+    direction:ltr;
+    font-size:38px;
+    font-weight:600;
+    color:var(--accent-ink);
+    display:block;
+  }
+  .count-item .lbl{
+    color:var(--muted);
+    font-size:14px;
+  }
+  .progress-track{
+    margin-top:22px;
+    height:8px;
+    border-radius:100px;
+    background:var(--accent-soft);
+    overflow:hidden;
+  }
+  .progress-fill{
+    height:100%;
+    background:var(--accent);
+    border-radius:100px;
+    transition:width .5s ease;
+    width:0%;
+  }
+  .dates-row{
+    display:flex;
+    justify-content:space-between;
+    margin-top:8px;
+    font-size:13px;
+    color:var(--muted);
+  }
+  .dates-row input[type=date]{
+    font-family:'JetBrains Mono', monospace;
+    direction:ltr;
+    border:1px solid var(--line);
+    border-radius:6px;
+    padding:3px 8px;
+    color:var(--ink);
+    background:#fff;
+  }
+
+  /* ---------- CHECK-IN (signature element) ---------- */
+  .checkin{
+    text-align:center;
+    padding:44px 0 40px;
+  }
+  .checkin .today{
+    font-size:14px;
+    color:var(--muted);
+    margin-bottom:18px;
+  }
+  .checkin .today .mono{ color:var(--ink); }
+  #checkinBtn{
+    font-family:'Tajawal', sans-serif;
+    font-size:18px;
+    font-weight:700;
+    padding:20px 44px;
+    border-radius:100px;
+    border:2px solid var(--ember);
+    background:#fff;
+    color:var(--ember);
+    cursor:pointer;
+    transition:background .2s ease, color .2s ease, transform .1s ease;
+  }
+  #checkinBtn:hover{ transform:translateY(-1px); }
+  #checkinBtn.done{
+    background:var(--ember);
+    color:#fff;
+  }
+  .streak-row{
+    display:flex;
+    justify-content:center;
+    gap:36px;
+    margin-top:26px;
+  }
+  .streak-item .num{
+    font-family:'JetBrains Mono', monospace;
+    font-size:26px;
+    font-weight:600;
+    color:var(--ink);
+    display:block;
+  }
+  .streak-item .lbl{
+    color:var(--muted);
+    font-size:13px;
+  }
+
+  /* ---------- ROADMAP ---------- */
+  .track{
+    margin-bottom:28px;
+  }
+  .track:last-child{ margin-bottom:0; }
+  .track-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    margin-bottom:10px;
+  }
+  .track-head .name{
+    font-weight:700;
+    font-size:16px;
+  }
+  .track-head .pct{
+    font-family:'JetBrains Mono', monospace;
+    direction:ltr;
+    font-size:13px;
+    color:var(--muted);
+  }
+  .topic{
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+    padding:7px 0;
+    cursor:pointer;
+    font-size:15px;
+  }
+  .topic input{
+    margin-top:5px;
+    width:16px;
+    height:16px;
+    accent-color:var(--accent);
+    flex-shrink:0;
+  }
+  .topic.checked span{
+    color:var(--muted);
+    text-decoration:line-through;
+    text-decoration-color:var(--line);
+  }
+
+  /* ---------- FOOTER ---------- */
+  footer{
+    padding-top:36px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:12px;
+  }
+  footer .line{
+    color:var(--muted);
+    font-size:14px;
+    max-width:46ch;
+  }
+  #resetBtn{
+    background:none;
+    border:none;
+    color:var(--muted);
+    font-size:13px;
+    text-decoration:underline;
+    cursor:pointer;
+    font-family:'Tajawal', sans-serif;
+  }
+  .loading-note{
+    color:var(--muted);
+    font-size:13px;
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <div class="hero">
+    <p class="kicker">من <span class="mono" id="startLabel">01/09/2026</span> إلى <span class="mono" id="targetLabel">31/03/2027</span></p>
+    <h1>جاهز لـ <span class="stack-word">Fullstack</span> بحلول مارس</h1>
+    <p class="sub">أبدأ من الصفر — من HTML وCSS — ساعتان دراسة كل يوم، بلا استثناء، حتى أكون قادراً على بناء تطبيق كامل من الواجهة إلى قاعدة البيانات وحدي.</p>
+    <div class="stack-row">
+      <span class="stack-chip">HTML/CSS</span>
+      <span class="stack-chip">JavaScript</span>
+      <span class="stack-chip">TypeScript</span>
+      <span class="stack-chip">Angular</span>
+      <span class="stack-chip">NestJS</span>
+      <span class="stack-chip">Tailwind CSS</span>
+      <span class="stack-chip">PostgreSQL</span>
+    </div>
+  </div>
+
+  <section>
+    <p class="section-title">الوقت</p>
+    <div class="count-grid">
+      <div class="count-item">
+        <span class="num" id="daysLeft">—</span>
+        <span class="lbl">يوم متبقٍ</span>
+      </div>
+      <div class="count-item">
+        <span class="num" id="daysIn">—</span>
+        <span class="lbl">يوم مضى منذ البداية</span>
+      </div>
+      <div class="count-item">
+        <span class="num" id="hoursTarget">—</span>
+        <span class="lbl">ساعة دراسة إجمالية إن التزمت</span>
+      </div>
+    </div>
+    <div class="progress-track"><div class="progress-fill" id="timeProgress"></div></div>
+    <div class="dates-row">
+      <span>تاريخ البداية: <input type="date" id="startInput"></span>
+      <span>الهدف: <input type="date" id="targetInput"></span>
+    </div>
+  </section>
+
+  <section class="checkin">
+    <p class="today">اليوم <span class="mono" id="todayLabel">—</span> — هل درست ساعتين؟</p>
+    <button id="checkinBtn">لم أُنجز بعد</button>
+    <div class="streak-row">
+      <div class="streak-item">
+        <span class="num" id="streakNum">0</span>
+        <span class="lbl">متتالية أيام</span>
+      </div>
+      <div class="streak-item">
+        <span class="num" id="totalDays">0</span>
+        <span class="lbl">مجموع أيام الدراسة</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <p class="section-title">خارطة الطريق</p>
+    <div id="roadmap"><p class="loading-note">جارٍ التحميل…</p></div>
+  </section>
+
+  <footer>
+    <p class="line">التقدّم لا يُقاس باليوم الواحد، بل بما لا تتوقف عن فعله.</p>
+    <button id="resetBtn">إعادة تعيين كل التقدم</button>
+  </footer>
+
+</div>
+
+<script>
+(function(){
+
+  const ROADMAP = [
+    { id:'html-css', name:'HTML & CSS', topics:[
+      'بنية HTML الدلالية (Semantic HTML)',
+      'نموذج الصندوق (Box Model) والـPositioning',
+      'Flexbox',
+      'CSS Grid',
+      'التصميم المتجاوب (Media Queries)',
+      'متغيرات CSS (Custom Properties)'
+    ]},
+    { id:'js', name:'JavaScript', topics:[
+      'المتغيرات والنطاق (var / let / const وScope)',
+      'الدوال وClosures',
+      'التعامل مع Arrays وObjects (map, filter, reduce…)',
+      'DOM Manipulation والأحداث (Events)',
+      'Asynchronous JS: Promises وasync/await وfetch',
+      'وحدات ES Modules (import / export)'
+    ]},
+    { id:'ts', name:'TypeScript', topics:[
+      'الأنواع الأساسية والواجهات (Interfaces)',
+      'Generics',
+      'Enums وUnion / Intersection Types',
+      'Classes وOOP في TypeScript',
+      'إعداد tsconfig ومشروع TS من الصفر'
+    ]},
+    { id:'ng', name:'Angular', topics:[
+      'المكونات وDependency Injection',
+      'Angular Router',
+      'RxJS والـObservables',
+      'Reactive Forms',
+      'Angular Signals',
+      'استهلاك REST APIs من الواجهة'
+    ]},
+    { id:'nest', name:'NestJS', topics:[
+      'بنية Modules / Controllers / Providers',
+      'DTOs وValidation Pipes',
+      'TypeORM أو Prisma مع PostgreSQL',
+      'JWT وGuards للمصادقة',
+      'معالجة الأخطاء الموحدة (Exception Filters)'
+    ]},
+    { id:'tw', name:'Tailwind CSS', topics:[
+      'نظام Flex وGrid بـUtility Classes',
+      'التصميم المتجاوب (Responsive)',
+      'تخصيص الثيم عبر tailwind.config',
+      'Dark / Light Mode',
+      'بناء مكونات قابلة لإعادة الاستخدام'
+    ]},
+    { id:'pg', name:'PostgreSQL', topics:[
+      'تصميم المخططات والعلاقات',
+      'الاستعلامات وJOIN المتقدم',
+      'Indexes والأداء',
+      'Migrations',
+      'الصلاحيات (Roles) والنسخ الاحتياطي'
+    ]},
+  ];
+
+  const $ = id => document.getElementById(id);
+  const todayISO = () => new Date().toISOString().slice(0,10);
+
+  function fmt(dateStr){
+    const d = new Date(dateStr + 'T00:00:00');
+    return d.toLocaleDateString('ar-EG', { day:'2-digit', month:'2-digit', year:'numeric' });
+  }
+
+  let settings = { start: '2026-09-01', target: '2027-03-31' };
+  let checkins = {};
+  let roadmapState = {};
+
+  async function loadAll(){
+    try{
+      const s = await window.storage.get('settings', false);
+      if (s && s.value) settings = JSON.parse(s.value);
+    }catch(e){ /* no settings saved yet */ }
+
+    try{
+      const c = await window.storage.get('checkins', false);
+      if (c && c.value) checkins = JSON.parse(c.value);
+    }catch(e){ /* none yet */ }
+
+    try{
+      const r = await window.storage.get('roadmap', false);
+      if (r && r.value) roadmapState = JSON.parse(r.value);
+    }catch(e){ /* none yet */ }
+
+    render();
+  }
+
+  async function saveSettings(){
+    try{ await window.storage.set('settings', JSON.stringify(settings), false); }
+    catch(e){ console.error('save settings failed', e); }
+  }
+  async function saveCheckins(){
+    try{ await window.storage.set('checkins', JSON.stringify(checkins), false); }
+    catch(e){ console.error('save checkins failed', e); }
+  }
+  async function saveRoadmap(){
+    try{ await window.storage.set('roadmap', JSON.stringify(roadmapState), false); }
+    catch(e){ console.error('save roadmap failed', e); }
+  }
+
+  function computeStreak(){
+    let streak = 0;
+    let cursor = new Date();
+    // if today not done yet, streak counts back from yesterday
+    if(!checkins[todayISO()]) cursor.setDate(cursor.getDate()-1);
+    while(true){
+      const iso = cursor.toISOString().slice(0,10);
+      if(checkins[iso]){ streak++; cursor.setDate(cursor.getDate()-1); }
+      else break;
+    }
+    return streak;
+  }
+
+  function render(){
+    $('startInput').value = settings.start;
+    $('targetInput').value = settings.target;
+    $('startLabel').textContent = fmt(settings.start);
+    $('targetLabel').textContent = fmt(settings.target);
+    $('todayLabel').textContent = fmt(todayISO());
+
+    const start = new Date(settings.start + 'T00:00:00');
+    const target = new Date(settings.target + 'T00:00:00');
+    const now = new Date(todayISO() + 'T00:00:00');
+
+    const totalDaysSpan = Math.max(1, Math.round((target - start) / 86400000));
+    const daysIn = Math.max(0, Math.round((now - start) / 86400000));
+    const daysLeft = Math.round((target - now) / 86400000);
+
+    $('daysLeft').textContent = daysLeft;
+    $('daysIn').textContent = Math.min(daysIn, totalDaysSpan);
+    $('hoursTarget').textContent = totalDaysSpan * 2;
+
+    const pct = Math.min(100, Math.max(0, (daysIn / totalDaysSpan) * 100));
+    $('timeProgress').style.width = pct + '%';
+
+    const doneToday = !!checkins[todayISO()];
+    $('checkinBtn').textContent = doneToday ? 'أُنجزت اليوم ✓' : 'لم أُنجز بعد';
+    $('checkinBtn').classList.toggle('done', doneToday);
+
+    $('streakNum').textContent = computeStreak();
+    $('totalDays').textContent = Object.values(checkins).filter(Boolean).length;
+
+    renderRoadmap();
+  }
+
+  function renderRoadmap(){
+    const container = $('roadmap');
+    container.innerHTML = '';
+    ROADMAP.forEach(track => {
+      const checkedCount = track.topics.filter((_, i) => roadmapState[track.id + '-' + i]).length;
+      const pct = Math.round((checkedCount / track.topics.length) * 100);
+
+      const trackEl = document.createElement('div');
+      trackEl.className = 'track';
+
+      const head = document.createElement('div');
+      head.className = 'track-head';
+      head.innerHTML = `<span class="name">${track.name}</span><span class="pct mono">${checkedCount}/${track.topics.length}</span>`;
+      trackEl.appendChild(head);
+
+      track.topics.forEach((topic, i) => {
+        const key = track.id + '-' + i;
+        const isChecked = !!roadmapState[key];
+        const row = document.createElement('label');
+        row.className = 'topic' + (isChecked ? ' checked' : '');
+        row.innerHTML = `<input type="checkbox" ${isChecked ? 'checked' : ''}><span>${topic}</span>`;
+        row.querySelector('input').addEventListener('change', (e) => {
+          roadmapState[key] = e.target.checked;
+          saveRoadmap();
+          renderRoadmap();
+        });
+        trackEl.appendChild(row);
+      });
+
+      container.appendChild(trackEl);
+    });
+  }
+
+  $('checkinBtn').addEventListener('click', () => {
+    const key = todayISO();
+    checkins[key] = !checkins[key];
+    saveCheckins();
+    render();
+  });
+
+  $('startInput').addEventListener('change', (e) => {
+    settings.start = e.target.value;
+    saveSettings();
+    render();
+  });
+  $('targetInput').addEventListener('change', (e) => {
+    settings.target = e.target.value;
+    saveSettings();
+    render();
+  });
+
+  $('resetBtn').addEventListener('click', () => {
+    if(!confirm('هل تريد فعلاً حذف كل الأيام المسجّلة وتقدّم خارطة الطريق؟')) return;
+    checkins = {};
+    roadmapState = {};
+    saveCheckins();
+    saveRoadmap();
+    render();
+  });
+
+  loadAll();
+})();
+</script>
+
+</body>
+</html>

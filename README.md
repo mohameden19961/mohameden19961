@@ -36,7 +36,7 @@ I'm a Computer Science student at **SUPNUM Mauritania** (Web & Multimedia Develo
 My approach to code is simple: **write it clean, make it work, make it last.** I'm driven by curiosity and the conviction that every project, even a small one, is an opportunity to do something well.
 
 > Currently open to **internships and junior developer opportunities** — remote or on-site.
-> 📧 [24068@supnum.mr](mailto:24068@supnum.mr)
+> 📧 [abdymohameden439@gmail.com](mailto:abdymohameden439@gmail.com)
 
 ---
 
